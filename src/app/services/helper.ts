@@ -1,2 +1,2 @@
-let baseUrl = 'http://localhost:8080';
+let baseUrl = 'https://examportal-backend.herokuapp.com/';
 export default baseUrl;
