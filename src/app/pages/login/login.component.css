@@ -1,0 +1,8 @@
+.full-width {
+  width: 100%;
+}
+
+mat-card{
+  background-color:rgba(173, 238, 227,0.8);
+  margin-top: 100px;
+}

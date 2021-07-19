@@ -1,0 +1,5 @@
+.test{
+    background-image:url(../assets/1.png) ;
+    height: 100vh;
+    background-size: contain;
+}
