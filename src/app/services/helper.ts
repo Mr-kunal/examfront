@@ -1,2 +1,2 @@
-let baseUrl = 'https://examportal-backend.herokuapp.com/';
+let baseUrl = 'https://examportal-backend.herokuapp.com';
 export default baseUrl;
