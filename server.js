@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const ngApp = express();
-ngApp.use(express.static('./dist/examportal-frontend'));
+ngApp.use(express.static('./dist/examfront'));
 ngApp.get('/*', function (request, response) {
-    response.sendFile(path.join(__dirname, '/dist/examportal-frontend/index.html'));
+    response.sendFile(path.join(__dirname, '/dist/examfront/index.html'));
 });
 ngApp.listen(process.env.PORT || 8080);
